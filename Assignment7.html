@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 12px;
+            padding: 0px;
+
+        }
+        .box1{
+            border: 2px solid black;
+            height: 10vh;
+           line-height: 10vh;
+            text-align: center;
+            background-color: aqua;
+            color: black;
+        }
+        .box2{
+            height: 100vh;
+            color: white;
+            line-height: 100vh;
+            text-align: center;
+            background-color:red;
+            margin-top: 2px;
+            border: 2px solid black;
+
+
+        }
+        .box3{
+            margin: 20px;
+            text-align: center;
+            /* border: 2px solid yellowgreen; */
+        }
+        .box3 .dot{
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            background-color: yellow;
+            padding: 80px 80px;
+            margin: 60px 60px;
+        }
+         h2{
+            text-align: center;
+        }
+        .box5{
+            text-align: center;
+            margin: 20px;
+
+        }
+        .box5 h1{
+            margin-bottom: 40px;
+        }
+
+        .box5 .dot{
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            background-color: aqua;
+            padding: 80px 80px;
+            margin: auto 60px;
+            
+
+        }
+        .footer{
+            height: 60px;
+            width: 100%;
+            line-height: 5vh;
+            background-color: blueviolet;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .box4{
+            border: 2px solid grey;
+        }
+        .box4 .insideBox{
+            display: flex;
+            flex-direction: row;
+            height: 30vh;
+            width: 90vw;
+            justify-content: space-between;
+            /* align-items: center; */
+            text-align: center;
+            line-height: 6vh;
+        }
+        .box4 .insideBox .content{
+            height: 24vh;width: 42vw; background-color: gray;
+            text-align: center;
+            line-height: 22vh;
+
+        }
+        .Article
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.Article1
+{
+    margin-top: 1px;
+    background-color:orange;
+     height: 6vh;
+     width: 45vw;
+     margin-bottom:10px ;
+}
+.Article2
+{
+    background-color:orange;
+     height: 6vh;
+     width: 45vw;
+     margin-bottom: 10px;     
+}
+.Article3
+{
+    background-color:orange;
+     height: 6vh;
+     width: 45vw;
+     margin-bottom: 0px;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Header
+    </div>
+    <div class="box2">
+        Banner
+    </div>
+    <div class="box3">
+        <h1>Section - 1</h1>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="box4">
+        <h2>Section - 2</h2>
+        <div class="insideBox">
+            <div class="content">
+                Main content
+            </div>
+            <div class="Article">
+                <div class="Article1">Article1</div>
+                <div class="Article2">Article2</div>
+                <div class="Article3">Article3</div>
+            </div>
+        </div>
+    </div>
+    <div class="box5">
+        <h1>Section - 5</h1>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <div class="footer">
+        <h1>Footer</h1>
+
+    </div>
+    
+</body>
+</html>
