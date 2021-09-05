@@ -46,6 +46,10 @@ background-image: url(lap.jpg);
   padding-top: 0px;
     margin-top: 0px;
     height: 86vh;
+  height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
     
     margin-left: 15px;
    margin-right: 15px;
